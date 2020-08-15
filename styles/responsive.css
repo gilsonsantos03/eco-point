@@ -1,0 +1,41 @@
+/*aqui vamos controlar melhor o dimensionamento da página
+é muito bom para qdo o tamanho da mesma for alterado.
+Dessa forma conseguimos ter controle maior de como as 
+coisas serão dispostas em determinados tamannhos pré-estabelecidos 
+*/
+@media (max-width: 900px){ 
+    #page-home{
+        background-position-x: 70vw;
+    }
+
+    #page-home .content{
+        align-items: center;
+        text-align: left;
+    }
+
+    #page-home header a{
+        position: absolute;
+        bottom: 48px;
+
+        /*pra centralizar o header a*/
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #page-home main {
+        align-items: center;
+    }
+}
+
+
+@media (min-width: 1700px){
+    #page-home{
+        background-position-x: 40vw;
+    }
+}
+
+@media (max-height: 760px){
+    #page-home{
+        background-position-y: 200px;
+    }
+}
