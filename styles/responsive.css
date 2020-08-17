@@ -24,8 +24,17 @@ coisas serão dispostas em determinados tamannhos pré-estabelecidos
 
     #page-home main {
         align-items: center;
+    } 
+
+    #page-search-results .cards{
+        grid-template-columns: 1fr;
+    }
+
+    #page-search-results .cards img{
+        height: 24px;
     }
 }
+
 
 
 @media (min-width: 1700px){
