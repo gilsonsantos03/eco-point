@@ -33,6 +33,19 @@ coisas serão dispostas em determinados tamannhos pré-estabelecidos
     #page-search-results .cards img{
         height: 24px;
     }
+
+    #page-create-point .field-group{
+        flex-direction: column;
+    }
+
+    #page-create-point .field-group .field + .field{
+        margin-left: 0;
+    }
+
+    #page-create-point .items-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+
 }
 
 
